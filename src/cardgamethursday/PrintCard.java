@@ -9,10 +9,11 @@ package cardgamethursday;
  *
  * @author Rajdeep
  */
+// Harsimran Kaur
 public class PrintCard {
     public static void main(String args[])
     {
-    GenerateCard c = new GenerateCard();// object to access generate 
+     GenerateCard c = new GenerateCard();// object to access generate 
     c.generateArray(); // calls the array to generate 60 cards, Delegation is archeived
     for ( CardGameThursday d : c.deck )
     {
